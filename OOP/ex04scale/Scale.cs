@@ -15,7 +15,7 @@ namespace ex04scale
 			this.left = left;
 			this.right = right;
 		}
-		public T GetHavier()
+		public T GetHeavier()
 		{
             if(left.CompareTo(right) > 0)
 			{

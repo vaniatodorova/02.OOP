@@ -11,10 +11,10 @@ namespace ex04scale
 		static void Main(string[] args)
 		{
 			Scale<int> scale = new Scale<int>(5,10);
-			int havier=scale.GetHavier();
+			int havier=scale.GetHeavier();
 			Console.WriteLine(havier);
 			Scale<double> scale2 = new Scale<double>(22.4, 81.3);
-			double havier2 = scale2.GetHavier();
+			double havier2 = scale2.GetHeavier();
 			Console.WriteLine(havier2);
 		}
 	}
