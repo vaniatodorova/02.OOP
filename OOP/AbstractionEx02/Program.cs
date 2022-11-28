@@ -10,42 +10,36 @@ namespace AbstractionEx02
 	{
 		static void Main(string[] args)
 		{
-			int i = int.Parse(Console.ReadLine());
-			do
+			int n = int.Parse(Console.ReadLine());
+			for(int i = 0; i < n; i++)
 			{
-				string a = Console.ReadLine();
-				string b = Console.ReadLine();
-				double c = double.Parse(Console.ReadLine());
-				if (a == "triangle")
+				string[] data = Console.ReadLine().Split(' ').ToArray();
+				ColoredFigure figure;
+				switch (data[0])
 				{
-					Triangle triangle = new Triangle(b, c);
-					Console.WriteLine("{0}:", triangle.GetName());
-					Console.WriteLine("Color: " + b);
-					Console.WriteLine($"Size: {c}");
-					Console.WriteLine("Area:{0}", triangle.GetArea());
+					case "Triangle":
+						{
+							double size = double.Parse(data[2]);
+							figure = new Triangle(data[1], size);
+							figure.Show();
+							break;
+						}
+					case "Circle":
+						{
+							double size = double.Parse(data[2]);
+							figure = new Circle(data[1], size);
+							figure.Show();
+							break;
+						}
+					case "Square":
+						{
+							double size = double.Parse(data[2]);
+							figure = new Square(data[1], size);
+							figure.Show();
+							break;
+						}
 				}
-				else if(a == "circle")
-				{
-					Circle circle = new Circle(b, c);
-					Console.WriteLine("{0}:", circle.GetName());
-					Console.WriteLine("Color: " + b);
-					Console.WriteLine($"Size: {c}");
-					Console.WriteLine("Area:{0}", circle.GetArea());
-				}
-				else if (a == "square")
-				{
-					Square square = new Square(b, c);
-					Console.WriteLine("{0}:", square.GetName());
-					Console.WriteLine("Color: " + b);
-					Console.WriteLine($"Size: {c}");
-					Console.WriteLine("Area:{0}", square.GetArea());
-				}
-				else
-				{
-					Console.WriteLine("Error");
-				}
-				i--;
-			} while (i>0);
+			}
 		}
 	}
 }

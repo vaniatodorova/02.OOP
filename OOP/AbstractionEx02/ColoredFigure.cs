@@ -8,30 +8,34 @@ namespace AbstractionEx02
 {
 	abstract class ColoredFigure
 	{
-		private string color;
-		private double size;
-		public ColoredFigure(string color, double size)
+		public string color;
+		public double size;
+		public ColoredFigure(string figureColor, double figureSize)
 		{
-			Color = color;
-			Size = size;
+			Color = figureColor;
+			Size = figureSize;
 		}
 		public string Color
 		{
-			get { return color; }
+			get { return this.color; }
 			set { this.color = value; }
 		}
 		public double Size
 		{
-			get { return size; }
+			get { return this.size; }
 			set { this.size = value; }
 		}
 		public abstract string GetName();
 		public abstract double GetArea();
 
-		public void Show(string color, double size)
+		public void Show()
 		{
-			this.color = Color;
-			this.size = Size;
+			Console.WriteLine("{0}:",GetName());
+			Console.WriteLine("color: {0}", Color);
+			Console.WriteLine("size: {0}", Size);
+			string area = GetArea().ToString("F");
+			area = String.Format("{0:0.00}", area);
+			Console.WriteLine("Area: {0}", area);
 		}
 	}
 }

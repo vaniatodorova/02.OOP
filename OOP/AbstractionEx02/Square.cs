@@ -9,15 +9,14 @@ namespace AbstractionEx02
 	class Square : ColoredFigure
 	{
 		public Square(string color, double size) : base(color, size)
-		{
-		}
+		{}
 		public override string GetName()
 		{
 			return ("Square");
 		}
 		public override double GetArea()
 		{
-			return (Size*Size);
+			return (Size * Size);
 		}
 	}
 }

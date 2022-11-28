@@ -9,15 +9,14 @@ namespace AbstractionEx02
 	class Triangle : ColoredFigure
 	{
 		public Triangle(string color, double size) : base(color, size)
-		{
-		}
+		{}
 		public override string GetName()
 		{
 			return "Triangle";
 		}
 		public override double GetArea()
 		{
-			return (((Size*Size) * Math.Sqrt(3))/4);
+			return ((Size*Size) * Math.Sqrt(3))/4;
 		}
 	}
 }
