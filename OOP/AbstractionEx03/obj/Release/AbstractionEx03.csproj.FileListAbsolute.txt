@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\11\oop\OOP\AbstractionEx03\bin\Release\AbstractionEx03.exe.config
+C:\Users\User\Desktop\11\oop\OOP\AbstractionEx03\bin\Release\AbstractionEx03.exe
+C:\Users\User\Desktop\11\oop\OOP\AbstractionEx03\bin\Release\AbstractionEx03.pdb
+C:\Users\User\Desktop\11\oop\OOP\AbstractionEx03\obj\Release\AbstractionEx03.csprojAssemblyReference.cache
+C:\Users\User\Desktop\11\oop\OOP\AbstractionEx03\obj\Release\AbstractionEx03.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\11\oop\OOP\AbstractionEx03\obj\Release\AbstractionEx03.exe
+C:\Users\User\Desktop\11\oop\OOP\AbstractionEx03\obj\Release\AbstractionEx03.pdb
