@@ -10,10 +10,10 @@ namespace ex09figure
 	{
 		public int width;
 		public int heigth;
-		public Rectangle(int Width, int Heigth)
+		public Rectangle(int figureWidth, int figureHeigth)
 		{
-			Width = width;
-			Heigth = heigth;
+			Width = figureWidth;
+			Heigth = figureHeigth;
 		}
 		public int Width
 		{
@@ -40,7 +40,7 @@ namespace ex09figure
 			Console.Write(end);
 			for(int i = 1; i < width - 1; ++i)
 			{
-				Console.WriteLine(mid);
+				Console.Write(mid);
 			}
 			Console.WriteLine(end);
 		}
