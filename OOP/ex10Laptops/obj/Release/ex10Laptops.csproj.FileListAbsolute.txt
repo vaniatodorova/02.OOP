@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\11\oop\OOP\ex10Laptops\bin\Release\ex10Laptops.exe.config
+C:\Users\User\Desktop\11\oop\OOP\ex10Laptops\bin\Release\ex10Laptops.exe
+C:\Users\User\Desktop\11\oop\OOP\ex10Laptops\bin\Release\ex10Laptops.pdb
+C:\Users\User\Desktop\11\oop\OOP\ex10Laptops\obj\Release\ex10Laptops.csprojAssemblyReference.cache
+C:\Users\User\Desktop\11\oop\OOP\ex10Laptops\obj\Release\ex10Laptops.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\11\oop\OOP\ex10Laptops\obj\Release\ex10Laptops.exe
+C:\Users\User\Desktop\11\oop\OOP\ex10Laptops\obj\Release\ex10Laptops.pdb

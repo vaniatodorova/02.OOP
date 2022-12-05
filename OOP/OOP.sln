@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex09figure", "ex09figure\ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractionEx03", "AbstractionEx03\AbstractionEx03.csproj", "{88257ECA-1811-4329-967B-2A3457131AFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex10Laptops", "ex10Laptops\ex10Laptops.csproj", "{5670FD23-67C9-43ED-A65E-20812A652E47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{88257ECA-1811-4329-967B-2A3457131AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88257ECA-1811-4329-967B-2A3457131AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88257ECA-1811-4329-967B-2A3457131AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5670FD23-67C9-43ED-A65E-20812A652E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5670FD23-67C9-43ED-A65E-20812A652E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5670FD23-67C9-43ED-A65E-20812A652E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5670FD23-67C9-43ED-A65E-20812A652E47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
